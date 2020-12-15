@@ -9,9 +9,9 @@ application.close()
 def identify(age, role):
     if role == 'moderator':
         print('mdoer')
-    elif age > 18 and role == "student":
+    elif age > 19 and role == "student":
         print('dogovor')
-    elif age < 18 and role == "student":
+    elif age < 19 and role == "student":
         print('roditel')
 
 identify(age, role)
