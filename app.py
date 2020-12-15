@@ -13,7 +13,7 @@ def identify(age,  role):
         print('dogovor')
     elif age < 17 and role == "student":
         print('roditel')
-
+# TODO hello
 identify(age, role)
 
 
