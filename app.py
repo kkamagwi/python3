@@ -6,7 +6,7 @@ role = str[8]
 
 application.close()
 
-def identify(age, role):
+def identify(age,  role):
     if role == 'moderator':
         print('mdoer')
     elif age > 17 and role == "student":
